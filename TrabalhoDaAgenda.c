@@ -34,7 +34,6 @@ void adicionar_contato() {
         return;
     }
 
-    Contato novo_contato;
     printf("Digite o nome: ");
     fgets(novo_contato.nome, TAM_NOME, stdin); // Lê o nome do contato
     novo_contato.nome[strcspn(novo_contato.nome, "\n")] = '\0'; // Remove o caractere de nova linha
