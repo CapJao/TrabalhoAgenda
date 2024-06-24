@@ -68,7 +68,7 @@ void consultar_contato() {
         }
     }
 
-    printf("Contato não encontrado.\n");
+    printf("Contato nao encontrado.\n");
 }
 
 //remover contato
@@ -89,7 +89,7 @@ void remover_contato() {
         }
     }
 
-    printf("Contato não encontrado.\n");
+    printf("Contato nao encontrado.\n");
 }
 
 //salvar contato
@@ -117,7 +117,6 @@ void menu() {
         printf("3. Remover contato\n");
         printf("4. Salvar contatos\n");
         printf("0. Sair\n");
-        printf("Escolha uma opcao: ");
         scanf("%d", &opcao); // Lê a opção escolhida pelo usuário
         getchar(); // Limpa o buffer do teclado
 
