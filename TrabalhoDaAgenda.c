@@ -17,9 +17,9 @@ Contato agenda[MAX_CONTATOS]; // Array para armazenar os contatos
 int total_contatos = 0;       // Contador para o total de contatos na agenda
 
 //verifica se tem apenas digitos
-int apenas_digitos(const char *num) {
-    while (*num) {
-        if (*num < '0' || *num > '9') {
+int apenas_digitos(const char num) {
+    while (num) {
+        if (num < '0' || num > '9') {
             return 0; // Retorna 0 se encontrar um caractere que não é um dígito
         }
         num++;
